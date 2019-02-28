@@ -1,23 +1,28 @@
 {
-  "name": "vue-to-do-list",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vuejs-fundamentals",
+  "version": "1.0.0",
+  "description": "[![](https://vueschool.s3.amazonaws.com/089f25af6e0e1f678474f10e98fdb6d0/vuejs-fundamentals.png)](https://vueschool.io/courses/vuejs-fundamentals)",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueschool/vuejs-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vueschool/vuejs-fundamentals/issues"
+  },
+  "homepage": "https://github.com/vueschool/vuejs-fundamentals#readme",
   "dependencies": {
-    "vue": "^2.6.6"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7"
   }
 }
